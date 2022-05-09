@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Boxing services with extra payment",
+        "price": "$300",
+        "description": "Whether you are a seasoned spinner, an avid road biker or just eager to test out a class for the first time, Klub20 spinning has you covered! Our spacious spin room is equipped with 40 spin bikes making it easy to cater to everyone’s indoor cycling needs",
+        "img": "pexels-annushka-ahuja-7991632.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Full Time Personal Trainer",
+        "price": "$1000",
+        "description": "Whether you are a seasoned spinner, an avid road biker or just eager to test out a class for the first time, Klub20 spinning has you covered! Our spacious spin room is equipped with 40 spin bikes making it easy to cater to everyone’s indoor cycling needs",
+        "img": "pexels-julia-larson-6455828.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Hand to hand premium services",
+        "price": "300",
+        "description": "Whether you are a seasoned spinner, an avid road biker or just eager to test out a class for the first time, Klub20 spinning has you covered! Our spacious spin room is equipped with 40 spin bikes making it easy to cater to everyone’s indoor cycling needs",
+        "img": "pexels-mikhail-nilov-6740309.jpg"
+    }
+]
