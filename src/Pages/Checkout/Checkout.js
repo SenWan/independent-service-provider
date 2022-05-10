@@ -3,7 +3,7 @@ import React from 'react';
 const Checkout = () => {
     return (
         <div>
-            <h2>Please Checkout Your Page</h2>
+            <h2 className='text-center text-success d-flex justify-content-center align-items-center' style={{height:'75vh'}}>Hurrah! Checkout process done</h2>
         </div>
     );
 };
