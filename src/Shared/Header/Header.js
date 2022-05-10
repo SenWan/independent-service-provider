@@ -17,7 +17,7 @@ const Header = () => {
                 <Nav.Link href='home#services' className='text-info fw-bold fs-6'>Services</Nav.Link>
                 <Nav.Link className='text-info fw-bold fs-6' as={Link} to='blogs'>Blogs</Nav.Link>
                 <Nav.Link className='text-info fw-bold fs-6' as={Link} to='about'>About</Nav.Link>
-                <Nav.Link className='text-info fw-bold fs-6' eventKey={2} href="#memes">
+                <Nav.Link className='text-info fw-bold fs-6' eventKey={2} as={Link} to="login">
                     Login
                 </Nav.Link>
                 </Nav>
