@@ -1,11 +1,12 @@
-import { Toast } from 'bootstrap';
 import React, { useRef } from 'react';
-import { Button, Form, ToastContainer } from 'react-bootstrap';
+import { Button, Form} from 'react-bootstrap';
 import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
-import { ToastContainer, toast } from 'react-toastify';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import Loading from '../../../Shared/Loading/Loading';
 
 const Login = () => {
     const emailRef = useRef('');
@@ -42,6 +43,10 @@ const Login = () => {
         )
       }
 
+      if(loading || sending){
+        return <Loading></Loading>
+      }
+
       const navigateRegister = event => {
         navigate('/register')
       }
@@ -55,6 +60,7 @@ const Login = () => {
       else{
         toast('Please Enter Your Email')
       }
+    }
 
     return (
         <div className='container' style={{height:'60vh'}}>
